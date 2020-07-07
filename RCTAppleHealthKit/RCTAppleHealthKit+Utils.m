@@ -135,6 +135,92 @@
         return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDistanceCycling];
     } else if ([type isEqual:@"Swimming"]){
         return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDistanceSwimming];
+    } else if ([type isEqual:@"Sleep"]){
+        return [HKObjectType quantityTypeForIdentifier:HKCategoryTypeIdentifierSleepAnalysis];
+    } else if ([type isEqual:@"HeartRate"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierHeartRate];
+    } else if ([type isEqual:@"RestingHeartRate"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierRestingHeartRate];
+    } else if ([type isEqual:@"HeartRateVariability"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierHeartRateVariabilitySDNN];
+    } else if ([type isEqual:@"MindfulSession"]){
+        return [HKObjectType quantityTypeForIdentifier:HKCategoryTypeIdentifierMindfulSession];
+    } else if ([type isEqual:@"Biotin"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryBiotin];
+    } else if ([type isEqual:@"Caffeine"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryCaffeine];
+    } else if ([type isEqual:@"Calcium"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryCalcium];
+    } else if ([type isEqual:@"Carbohydrates"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryCarbohydrates];
+    } else if ([type isEqual:@"Chloride"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryChloride];
+    } else if ([type isEqual:@"Cholesterol"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryCholesterol];
+    } else if ([type isEqual:@"Copper"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryCopper];
+    } else if ([type isEqual:@"EnergyConsumed"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryEnergyConsumed];
+    } else if ([type isEqual:@"FatMonounsaturated"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryFatMonounsaturated];
+    } else if ([type isEqual:@"FatPolyunsaturated"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryFatPolyunsaturated];
+    } else if ([type isEqual:@"FatSaturated"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryFatSaturated];
+    } else if ([type isEqual:@"FatTotal"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryFatTotal];
+    } else if ([type isEqual:@"Fiber"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryFiber];
+    } else if ([type isEqual:@"Folate"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryFolate];
+    } else if ([type isEqual:@"Iodine"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryIodine];
+    } else if ([type isEqual:@"Iron"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryIron];
+    } else if ([type isEqual:@"Magnesium"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryMagnesium];
+    } else if ([type isEqual:@"Manganese"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryManganese];
+    } else if ([type isEqual:@"Molybdenum"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryMolybdenum];
+    } else if ([type isEqual:@"Niacin"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryNiacin];
+    } else if ([type isEqual:@"PantothenicAcid"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryPantothenicAcid];
+    } else if ([type isEqual:@"Phosphorus"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryPhosphorus];
+    } else if ([type isEqual:@"Potassium"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryPotassium];
+    } else if ([type isEqual:@"Protein"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryProtein];
+    } else if ([type isEqual:@"Riboflavin"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryRiboflavin];
+    } else if ([type isEqual:@"Selenium"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietarySelenium];
+    } else if ([type isEqual:@"Sodium"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietarySodium];
+    } else if ([type isEqual:@"Sugar"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietarySugar];
+    } else if ([type isEqual:@"Thiamin"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryThiamin];
+    } else if ([type isEqual:@"VitaminA"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryVitaminA];
+    } else if ([type isEqual:@"VitaminB12"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryVitaminB12];
+    } else if ([type isEqual:@"VitaminB6"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryVitaminB6];
+    } else if ([type isEqual:@"VitaminC"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryVitaminC];
+    } else if ([type isEqual:@"VitaminD"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryVitaminD];
+    } else if ([type isEqual:@"VitaminE"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryVitaminE];
+    } else if ([type isEqual:@"VitaminK"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryVitaminK];
+    } else if ([type isEqual:@"Zinc"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryZinc];
+    } else if ([type isEqual:@"Water"]){
+        return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryWater];
     }
     // default [type isEqual:@"Workout"])
     return [HKObjectType workoutType];
