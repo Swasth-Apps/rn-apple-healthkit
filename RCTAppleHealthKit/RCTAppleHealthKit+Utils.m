@@ -144,7 +144,7 @@
     } else if ([type isEqual:@"HeartRateVariability"]){
         return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierHeartRateVariabilitySDNN];
     } else if ([type isEqual:@"MindfulSession"]){
-        return [HKObjectType quantityTypeForIdentifier:HKCategoryTypeIdentifierMindfulSession];
+        return [HKObjectType categoryTypeForIdentifier:HKCategoryTypeIdentifierMindfulSession];
     } else if ([type isEqual:@"Biotin"]){
         return [HKObjectType quantityTypeForIdentifier:HKQuantityTypeIdentifierDietaryBiotin];
     } else if ([type isEqual:@"Caffeine"]){
