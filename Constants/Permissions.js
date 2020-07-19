@@ -23,6 +23,7 @@ export const Permissions = {
   Chloride: "Chloride",
   Cholesterol: "Cholesterol",
   Copper: "Copper",
+  DietaryEnergy: "DietaryEnergy",
   EnergyConsumed: "EnergyConsumed",
   FatMonounsaturated: "FatMonounsaturated",
   FatPolyunsaturated: "FatPolyunsaturated",
